@@ -1,0 +1,44 @@
+section{
+    background-color: aqua;
+    /* display: flex; */
+    /* gap: 7px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; */
+    height: 300px;
+    /* position: relative; */
+    /* box-sizing: border-box; */
+    border: 5px solid black;
+}
+/* div{
+    border: 2px solid black;
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+} */
+
+/* media query */
+/* mobile */
+@media (min-width: 600px) {
+    section{
+        background-color: blue;
+    }
+}
+/* tab */
+@media (min-width: 800px) {
+    section{
+        /* border: none;
+         */
+         background-color: black;
+    }
+}
+/* extra */
+
+@media (min-width: 1000px) {
+    section{
+        /* border: none; */
+        background-color: blueviolet;
+    }
+}
