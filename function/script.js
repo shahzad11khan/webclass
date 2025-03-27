@@ -67,15 +67,15 @@
 // else-if
 // switch
 
-let marks= prompt("Enter marks:");
-console.log(marks, typeof(marks))
+// let marks= prompt("Enter marks:");
+// console.log(marks, typeof(marks))
 
 // 21
-if(isNaN(marks)){
-    console.log("Your Enter String",marks)
-}else{
-    console.log("Your Enter Number",marks);
-}
+// if(isNaN(marks)){
+//     console.log("Your Enter String",marks)
+// }else{
+//     console.log("Your Enter Number",marks);
+// }
 
 // just if
 // if(marks>90){
@@ -101,4 +101,35 @@ if(isNaN(marks)){
 // }
 
 // switch
+
+let day = prompt("Enter Day Name:");
+// stop 
+// string 
+// true always true
+
+switch (true) {
+    case day === "Sunday":
+        console.log("Today is Sunday");
+    case day === "Monday" :
+        console.log("Today is Monday");
+        break;
+    case day === "Wed" :
+        console.log("Today is Wed");
+        break;
+    default:
+        console.log("Invalid Day")
+        break;
+}
+// switch (Number(day)) {
+//     case 0:
+//         console.log("Today is Sunday");
+//         break;
+//     case 1 :
+//         console.log("Today is Monday");
+        
+//         break;
+//     default:
+//         console.log("Invalid Number")
+//         break;
+// }
 
