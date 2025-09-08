@@ -1,0 +1,21 @@
+   h2 {
+       color: green;
+   }
+
+   /* h4{
+            color: blue;
+            font-size: 45px;
+        } */
+
+   .internalCss2 {
+       color: olive;
+       font-size: 50px;
+       text-decoration: underline;
+       transform: rotate(10deg);
+   }
+
+   #internalCss3 {
+       color: purple;
+       font-size: 40px;
+       text-decoration: overline;
+   }
