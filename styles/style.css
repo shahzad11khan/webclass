@@ -1,21 +1,88 @@
-   h2 {
-       color: green;
-   }
+/* .btn{
+    color: red;
+}
 
-   /* h4{
-            color: blue;
-            font-size: 45px;
-        } */
+input:focus{
+    border: 2px dotted blue;
+    background-color: rebeccapurple;
+}
 
-   .internalCss2 {
-       color: olive;
-       font-size: 50px;
-       text-decoration: underline;
-       transform: rotate(10deg);
-   }
+.elementname::before{
+    content: "🎇";
+}
+p::first-letter{
+    font-size: 200px;
+    color: green;
+}
 
-   #internalCss3 {
-       color: purple;
-       font-size: 40px;
-       text-decoration: overline;
-   }
+li:nth-child(2){
+    background-color:blue;
+}
+
+p {
+  color: blue;
+  font-family: "Verdana", sans-serif;
+  font-size: 18px;
+  text-align: justify;
+  opacity: 0.5;
+}
+p:hover{
+    opacity: 1;
+}
+body{
+    background-image: url('../image.jpg');
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+div { 
+   border-width: 3px; 
+   border-style: dotted;  
+   border-color: green; 
+   border-radius: 15px;
+}
+button{
+    border:10px solid red;
+    border-radius: 20px;
+    margin:100px;
+    padding: 300px;
+} */
+/* 
+@media(max-width: 1000px){
+    body{
+        background-color: blue;
+    }
+    button{
+        border:10px solid green;
+    }
+}
+@media (max-width: 600px){
+    body{
+        background-color: yellow;
+    }
+    div{
+        border:2px solid black
+    }
+    button{
+       width: 20px;
+       height: 500px;
+    }
+    p::before{
+        content:"*";
+        text-decoration: overline;
+
+    }
+} */
+
+/* flex */
+
+nav{
+    display: flex;
+    border: 3px solid red;
+    height: 50px;
+    /* flex-direction: column; */
+    /* gap: 20px;    */
+    justify-content: space-between;
+    align-items: center;
+}
