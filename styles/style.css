@@ -88,21 +88,37 @@ button {
 } */
 
 .main{
-    border:3px solid red;
-    height: 400px;
-    width:400px;
-    background-color: aqua;
-    position:absolute;
-    /* z-index:1 */
+    border:2px solid red;
+    /* height: 500px; */
+    background-color:blue;
+    color:white
 }
-.child{
-    border:4px dotted black;
-    position: relative;
-    height: 100px;
-    width:100px;
-    /* margin-top:500px; */
-    z-index:-1;
-    background-color:blue
-    /* top:100px;
-    left:1000px; */
+
+.child1{
+     border:2px solid rgb(240, 212, 212);
+    height: 500px;
+    width:200px;
+    background-color:rgb(212, 212, 252);
+}
+.child2{
+     border:2px solid rgb(216, 213, 20);
+    height: 500px;
+    width:200px;
+    background-color:rgb(24, 220, 234);
+    position:absolute;
+    top:50
+}
+.child3{
+     border:2px solid rgb(9, 0, 0);
+    height: 500px;
+    width:200px;
+    background-color:rgb(227, 12, 223);
+    position:relative;
+    /* z-index:1; */
+    top:40
+}
+p{
+    /* background-color:black; */
+    position:relative;
+    z-index:1;
 }
