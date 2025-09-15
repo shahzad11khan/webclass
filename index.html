@@ -1,51 +1,23 @@
+<!doctype html>
 <html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  </head>
+  <body>
 
-<head>
-    <title>Web Class</title>
-   
-        <link rel="stylesheet" href="styles/style.css">
-</head> 
-
-<body>
-    <div class="mainheader">  
-         <header>
-    <div>
-        Logo
-    </div>
-    <div>WEB SITE</div>
-    <div>
-        <ul>
-            <Li><a href="">Home</a></Li>
-            <Li><a href="">Contact</a></Li>
-            <Li><a href="">Gallery</a></Li>
-        </ul>
-    </div>
-   </header>
-
-   <div class="loginbox">
-    <div class="loginform">
-
-        <input type="email" placeholder="Enter your email">
-        <input type="password" placeholder="Enter your password">
-        <button>Login</button>
-    </div>
-   </div>
-   </div>
-
-   <div class="main">
-
-    <div class="child1">
-
-    </div>
-    <div class="child2">
-
-    </div>
-    <div class="child3">
-
-    </div>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur quo hic nemo aspernatur aut, itaque molestiae saepe modi delectus laudantium excepturi iste, dicta aperiam architecto nulla corporis. Quas, velit alias.</p>
-   </div>
+    <header class="flex justify-between p-4 bg-gray-300 md:bg-red-500 lg:bg-blue-700 xl:bg-green-900 items-center">
+        <div>
+            <img src="../image.jpg" class="w-20 h-20 rounded-full" alt="this image for logo">
+        </div>
+        <div>
+            <ul class="flex gap-3 font-bold text-3xl italic">
+                <li>Home</li>
+                <li>About</li>
+            </ul>
+        </div>
+    </header>
 
 </body>
-
 </html>
