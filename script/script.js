@@ -5,10 +5,10 @@
 // document.write("Hello, Javascript");
 
 
-// var  --> shortcut from of variable  --> actual name is keyword reserveword --> which is used for declear a variable
-// keyword/resverword variableName = value/data
-
-// var batchII = "javascript";
+// var  --> shortcut from of variable 
+// var --> actual name is keyword reserveword --> which is used for declear a variable
+// keyword/resverword     variableName      = value/data
+// var                    batchII           = "javascript";
 // console.log(batchII);
 // document.write(batchII)
 // alert(batchII)
@@ -17,10 +17,12 @@
 // var MyName = "John Doe";
 // var myname= "Jane Doe";
 // let MyName = "John Doe";
+
 // let MyName = "shahzad";
 const MyName = "shahzad";
 var myName = "John Doe";
-let MYName = "Jane Doe";
+console.log(MyName);
+// let MYName = "Jane Doe";
 // const MyName = "John Doe"; 
-document.writeln("<h1>" + MyName + "</h1>");
+// document.writeln("<h1>" + MyName + "</h1>");
 
