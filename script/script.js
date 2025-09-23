@@ -357,15 +357,76 @@
         // }
         
         
-        let number1 = +prompt("Enter First Number!");
-        let number2 = +prompt("Enter 2nd Number!");
+        // let number1 = +prompt("Enter First Number!");
+        // let number2 = +prompt("Enter 2nd Number!");
  
-        add(number1,number2);
-        function add(n1,n2){
-            console.log(n1-n2);
-        }
+        // add(number1,number2);
+        // function add(n1,n2){
+        //     console.log(n1-n2);
+        // }
         
 // Name() //calling
 // add(23,23) //calling
+
+// class 05
+
+// implicit converstion
+// + --> plus concatination + addition
+// console.log("5" +  5);
+// let add = 5 + "5";
+// let add = 5 + 5;
+// console.log(add);
+
+// let add = +"5";
+// let add = +"shahzad";
+// console.log(typeof add)
+
+// let sub = 10 * "5";
+// let sub = 10 - "5";
+// console.log(sub);
+
+// explicit
+// let num = "4321"
+// let convertnum = Number(num);
+// console.log(convertnum);
+// console.log(typeof convertnum);
+// let num = 323324;
+// let convertnum = num.toString();
+// console.log(convertnum);
+// console.log(typeof convertnum);
+
+// boolean
+// console.log(Number(true))
+// console.log(Number(false))
+
+// operators
+
+//  + , - , / , *
+
+// console.log(2 + 2);
+// console.log(2 - 2);
+// console.log(2 * 2);
+// console.log(2 / 2);
+// console.log(2 % 2);
+
+// create a table 2
+
+// comparison
+// == , === , != , !== , > , < , >= , <=
+
+// console.log(2 < 4)
+// console.log(2 > 4)
+// console.log(2 == "9"); // never seen the datatype just value
+// console.log(2 === "2"); // both comp datatype and value
+// let a = 60;
+// let b = "60";
+// console.log(a == b);
+// console.log(a === b);
+
+// console.log(2 != "2")
+// console.log(!false)
+// console.log(2 === "2")
+// console.log(2 !== "2")
+
 
 
