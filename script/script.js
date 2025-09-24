@@ -428,5 +428,32 @@
 // console.log(2 === "2")
 // console.log(2 !== "2")
 
+// class 06 
+// logical operators
+// && || !
+
+// let num1 = true;
+// let num1 = true;
+// let num2 = true;
+// let num2 = true;
+// console.log(num1 && num2);
+// console.log(num1 || num2);
+// console.log(!num1);
+
+// let num1= 20;
+// let num2 = 30;
+// let num1= 30;
+// let num2 = 20;
+// console.log(num2,num1)
+// conditions
+let userinput = prompt("police said! Show me your id card for visit! your have?");
+if(userinput === "yes"){
+    alert("You can Go")
+}else{
+    alert("You Back to Home please")
+}
+
+
+
 
 
