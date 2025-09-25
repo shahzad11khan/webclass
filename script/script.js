@@ -446,14 +446,43 @@
 // let num2 = 20;
 // console.log(num2,num1)
 // conditions
-let userinput = prompt("police said! Show me your id card for visit! your have?");
-if(userinput === "yes"){
-    alert("You can Go")
-}else{
-    alert("You Back to Home please")
-}
+// let userinput = prompt("police said! Show me your id card for visit! your have?");
+// if(userinput === "yes"){
+//     alert("You can Go")
+// }else{
+//     alert("You Back to Home please")
+// }
+
+// class 07
+// condition decision 
+// your all decision depend on the condition
+// if if-else , else-if switch
+
+// ternory operator
 
 
+// let userInput = prompt("enter your age!");
+// console.log(typeof userInput);
+// implicit
+// let userInput = +prompt("enter your age!");
+// console.log(typeof userInput);
+// exlicit
+// let userInput = prompt("enter your age!");
+// userInput = Number(userInput)
+// console.log(typeof userInput);
+// userInput > 18 ? console.log("you are driver") : console.log("you are not driver");
+// simple if else
+// if(userInput > 18){console.log("you are driver")}else{}
+// task kashif
+// let value1 = prompt("enter first value true/false")
+// let value2 = prompt("enter 2nd value true/false")
+// console.log(typeof value1 , typeof value2);
+// let upvalue1 = Boolean(value1)
+// console.log(value1)
+// console.log( upvalue1);
+// let upvalue2 = Boolean(value2)
+// console.log( upvalue1 && upvalue2);
+// console.log( upvalue1 || upvalue2);
 
 
 
