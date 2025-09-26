@@ -350,21 +350,21 @@
 // reuseable and simple 
 // Name()
 // function Name(){
-    //     console.log("web class")
-    // }
-    // function Name(input_from_user){
-        //     console.log(input_from_user)
-        // }
-        
-        
-        // let number1 = +prompt("Enter First Number!");
-        // let number2 = +prompt("Enter 2nd Number!");
- 
-        // add(number1,number2);
-        // function add(n1,n2){
-        //     console.log(n1-n2);
-        // }
-        
+//     console.log("web class")
+// }
+// function Name(input_from_user){
+//     console.log(input_from_user)
+// }
+
+
+// let number1 = +prompt("Enter First Number!");
+// let number2 = +prompt("Enter 2nd Number!");
+
+// add(number1,number2);
+// function add(n1,n2){
+//     console.log(n1-n2);
+// }
+
 // Name() //calling
 // add(23,23) //calling
 
@@ -483,6 +483,48 @@
 // let upvalue2 = Boolean(value2)
 // console.log( upvalue1 && upvalue2);
 // console.log( upvalue1 || upvalue2);
+
+// class 08
+// let userinput = prompt("Show me visiting card");
+// console.log(typeof userinput);
+
+//  if(userinput === "yes"){
+//          alert("You can Go")
+// }else{
+//      alert("You are not allowed")
+//      }
+
+// validations
+// let userInput = prompt("Enter Your Age!")
+
+// if(userInput >= 18){
+//     document.writeln("You are driver")
+// }else{
+//     document.writeln("You are not driver")
+// }
+// let userInput = prompt("Enter Your Age!")
+//  if(userInput > 0){
+//      if(userInput >= 18){
+//          document.writeln("You are driver")
+//      }else{
+//          document.writeln("You are not driver")
+//      }
+// }else{
+//      document.writeln("please enter number greater then 0");
+
+//  }
+
+// let userInput = prompt("Enter Your number!")
+// console.log(isNaN(userInput));
+// if (isNaN(userInput)) {
+//         document.writeln("this is not a number");
+//     } else {
+//            document.writeln("this is number")
+// }
+
+// class task is check the if the value is number or not (isNaN) and also restrict the minus value and the value is not greater then 100. this grad system for a std. only use else-if
+// if{}elseif(){}elseif(){}else{}  
+
 
 
 
