@@ -525,6 +525,51 @@
 // class task is check the if the value is number or not (isNaN) and also restrict the minus value and the value is not greater then 100. this grad system for a std. only use else-if
 // if{}elseif(){}elseif(){}else{}  
 
+//  class 09
+// for(initialization; condition; increment/decrement){
+//     // body of for loop
+// }
 
+// console.log("hi")
+// console.log("hi")
+// console.log("hi")
+// console.log("hi")
+// console.log("hi")
+// console.log("hi")
+// console.log("hi")
 
+//for(){}
+// for(let i=0; i<3; i++){
+//     console.log("hi")
+// }
+// console.log("end for loop!")
 
+// while(){}
+// initialization
+// let i= 0;
+// while(i>5){
+// console.log("hi")
+//     // increment / decrement
+//     i++;
+// }
+// console.log("end while loop!")
+// let i =10;
+// while(i > 0){
+//     console.log(i);
+//     i--;
+// }
+// dowhile loop run at least one time when the condition is false
+// let i= 0;
+// do {
+//     console.log(i)
+//     i++;
+// } while (i<10);
+// console.log("end do while loop!")
+// let userInput = +prompt("Enter Your number!")
+// Math.floor()
+// Math.ceil()
+// Math.round()
+// math.random()
+// console.log(Math.floor(Math.random()*10));
+// console.log(Math.round(Math.random()*10));
+// console.log(userInput === Math.floor(Math.random()*10) ? "Number is Match" : "Number is Not Match"); ;
