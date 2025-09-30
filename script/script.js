@@ -571,5 +571,61 @@
 // Math.round()
 // math.random()
 // console.log(Math.floor(Math.random()*10));
-// console.log(Math.round(Math.random()*10));
-// console.log(userInput === Math.floor(Math.random()*10) ? "Number is Match" : "Number is Not Match"); ;
+// console.log(Math.floor(Math.random()*2));
+// console.log(userInput === Math.floor(Math.random()*10) ? "Number is Match" : "Number is Not Match"); 
+
+
+// class 10
+// continue break return
+
+// for(let i =1 ; i<=10;i++){
+//     if(i === 5){
+//         continue; //skip
+//     }
+//     if(i === 7){
+//         continue;
+//     }
+//     document.writeln(i)
+// }
+// break;
+// let i = 1;
+// while (i<=10) {
+//     document.writeln(i);
+//     if(i === 5){
+//         break; // discontiue;
+//     }
+//     i++;
+// }
+
+// return;
+
+// document.writeln(add())
+// add();
+// function add(){
+//     // document.writeln("Add two numbers!",2+2)
+//     return 2+2;
+// }
+
+// function deep
+// simple func
+// function add(){
+//     // document.writeln("Add two numbers!",2+2)}
+// const  add = () => {
+    // log("A")
+// }
+function mul(a,b){
+    // document.writeln(a*b)
+    return a*b
+}
+
+const add=()=>{
+    document.writeln(2+3)
+}
+
+document.writeln(mul(7,2));
+mul(8,2);
+mul(1,3);
+mul(7,9);
+mul(8,5);
+mul(9,4);
+add();
