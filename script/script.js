@@ -613,19 +613,59 @@
 // const  add = () => {
     // log("A")
 // }
-function mul(a,b){
-    // document.writeln(a*b)
-    return a*b
-}
+// function mul(a,b){
+//     // document.writeln(a*b)
+//     return a*b
+// }
 
-const add=()=>{
-    document.writeln(2+3)
-}
+// const add=()=>{
+//     document.writeln(2+3)
+// }
 
-document.writeln(mul(7,2));
-mul(8,2);
-mul(1,3);
-mul(7,9);
-mul(8,5);
-mul(9,4);
-add();
+// document.writeln(mul(7,2));
+// mul(8,2);
+// mul(1,3);
+// mul(7,9);
+// mul(8,5);
+// mul(9,4);
+// add();
+
+// class 11
+
+let array = ["a",true,"c","y"];
+// 1st method push
+// console.log(array)
+// document.writeln(array)
+// array.push("web class"); // add element in the last
+// console.log(array);
+// pop
+// array.pop()
+// array.shift();
+// array.unshift("web class") // add element in the firsts
+// console.log(array);
+// array.map((value)=>{
+//     console.log(value);
+    
+// })
+
+// object
+
+let std = {
+    name : "web class",
+    batch : 2,
+    isStudentnavttc : true
+}
+// document.writeln(std.name,std.batch,std.isStudentnavttc);
+// console.log(std.name);
+// console.log(std.batch);
+// console.log(std.isStudentnavttc);
+
+// console.log(std);
+std.age = 21;
+std.batch =3;
+console.log(std);
+
+
+
+
+
