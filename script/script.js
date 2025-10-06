@@ -650,22 +650,51 @@ let array = ["a",true,"c","y"];
 
 // object
 
-let std = {
-    name : "web class",
-    batch : 2,
-    isStudentnavttc : true
-}
+// let std = {
+//     name : "web class",
+//     batch : 2,
+//     isStudentnavttc : true
+// }
 // document.writeln(std.name,std.batch,std.isStudentnavttc);
 // console.log(std.name);
 // console.log(std.batch);
 // console.log(std.isStudentnavttc);
 
 // console.log(std);
-std.age = 21;
-std.batch =3;
-console.log(std);
+// std.age = 21;
+// std.batch =3;
+// console.log(std);
 
 
+// let update = document.title = "update document title"
+// document.body.style.backgroundColor = "red"
+// document.writeln("hi there!")
+// document.body.innerHTML = '<h6>hello there!</h6>'
+// document.body.innerText = '<h6>hello there!</h6>'
+
+// elementbyid , elementbyclassname, elementbytagname,queryselector,queryselectorall
+// let getbyid = document.getElementById("nav");
+// getbyid.style.color = "red";
+// getbyid.style.backgroundColor= "blue"
+// getbyid.style.padding = "10px"
 
 
+// by tag name 
+
+// let tagname = document.getElementsByTagName("div")
+// console.log(tagname[0].style.color = "red");
+// tagname[0].innerText = "shahzad";
+
+// let queryselectorall = document.querySelectorAll(".box");
+
+// console.log(queryselectorall[1].innerHTML)
+
+// queryselectorall[1].innerHTML = "shahzad";
+
+// queryselectorall[1].style.textDecoration = "underline";
+
+// let updateimagepath = document.getElementById("image");
+// console.log(updateimagepath)
+
+// updateimagepath.setAttribute("src","../image.jpg")
 
