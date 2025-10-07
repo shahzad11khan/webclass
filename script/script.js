@@ -698,3 +698,47 @@ let array = ["a",true,"c","y"];
 
 // updateimagepath.setAttribute("src","../image.jpg")
 
+// practice dom
+// getelementbyid
+// accessing
+// let getdata = document.getElementById("mydiv");
+// updation
+// console.log(getdata.innerText= "web class");
+// modification
+// let design = getdata.style.color = "red";
+
+// access the element
+// let list = document.getElementById("mylist");
+// console.log(list)
+// create element li
+// let listitem = document.createElement('li');
+// console.log(listitem)
+// add text in a list
+// let addtext = listitem.innerText = "item one";
+// console.log(addtext)
+
+// append child with the parent
+// let appendchild = list.appendChild(listitem)
+
+
+// add event listener
+// let btn = document.getElementById("btn");
+// console.log(btn);
+
+// btn.addEventListener("click",function(){
+//     // alert("button clicked")
+//     document.writeln("button clicked")
+// })
+
+let btn = document.getElementById("submit");
+btn.addEventListener("click",function(e){
+e.preventDefault();
+    let name = document.getElementById("name").value;
+    let email = document.getElementById("email").value;
+    // console.log(name);
+    if(name === "" || email === ""){
+        alert("please fill all the fields")
+    }
+    
+});
+
