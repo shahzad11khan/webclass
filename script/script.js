@@ -730,15 +730,46 @@ let array = ["a",true,"c","y"];
 //     document.writeln("button clicked")
 // })
 
-let btn = document.getElementById("submit");
-btn.addEventListener("click",function(e){
-e.preventDefault();
-    let name = document.getElementById("name").value;
-    let email = document.getElementById("email").value;
-    // console.log(name);
-    if(name === "" || email === ""){
-        alert("please fill all the fields")
-    }
-    
-});
+// let btn = document.getElementById("submit");
+// let creatediv = document.createElement("div");
+// let addtext = creatediv.innerText = "this is created div";
+// document.body.appendChild(creatediv)
+// console.log(creatediv)
+// console.log(btn)
+// btn.addEventListener("click",function () {
+    // alert("button is clicked");
+    // console.log("")
+    // document.write("");
+    // btn.style.color = "red";
 
+// })
+// btn.addEventListener("click",function(e){
+// e.preventDefault();
+//     let name = document.getElementById("name").value;
+//     let email = document.getElementById("email").value;
+//     // console.log(name);
+//     if(name === "" || email === ""){
+//         alert("please fill all the fields")
+//     }
+    
+// });
+
+
+// api 
+async function getdatafromapi(){
+    let data = await fetch("https://jsonplaceholder.typicode.com/posts");
+    console.log(data);
+    let res = await data.json();
+    res.map((d)=>{
+        console.log(d);
+    })
+    
+}
+// getdatafromapi();
+console.log("hello world!")
+// ...
+const arr1 = [1,2];
+const arr2  = [3,4];
+
+const arr3 = [...arr1,...arr2];
+console.log(arr3);
