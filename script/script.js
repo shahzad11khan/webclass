@@ -756,20 +756,41 @@ let array = ["a",true,"c","y"];
 
 
 // api 
-async function getdatafromapi(){
-    let data = await fetch("https://jsonplaceholder.typicode.com/posts");
-    console.log(data);
-    let res = await data.json();
-    res.map((d)=>{
-        console.log(d);
-    })
+// async function getdatafromapi(){
+//     let data = await fetch("https://jsonplaceholder.typicode.com/posts");
+//     console.log(data);
+//     let res = await data.json();
+//     res.map((d)=>{
+//         console.log(d);
+//     })
     
-}
+// }
 // getdatafromapi();
-console.log("hello world!")
+// console.log("hello world!")
 // ...
-const arr1 = [1,2];
-const arr2  = [3,4];
+// const arr1 = [1,2];
+// const arr2  = [3,4];
 
-const arr3 = [...arr1,...arr2];
-console.log(arr3);
+// const arr3 = [...arr1,...arr2];
+// console.log(arr3);
+
+// simple api 
+
+async function getdatafromapi(){
+
+    try {
+    let data = await fetch("https://jsonplaceholder.typicode.com/users");
+   let res = await data.json();
+   console.log(res);
+   res.map((d)=>{
+    console.log(d.id,d.name,d.email);
+   })
+
+    } catch (error) {
+        console.log("custom error message",error);
+        
+    }
+   
+   
+}
+getdatafromapi();
