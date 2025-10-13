@@ -611,7 +611,7 @@
 // function add(){
 //     // document.writeln("Add two numbers!",2+2)}
 // const  add = () => {
-    // log("A")
+// log("A")
 // }
 // function mul(a,b){
 //     // document.writeln(a*b)
@@ -632,7 +632,7 @@
 
 // class 11
 
-let array = ["a",true,"c","y"];
+let array = ["a", true, "c", "y"];
 // 1st method push
 // console.log(array)
 // document.writeln(array)
@@ -645,7 +645,7 @@ let array = ["a",true,"c","y"];
 // console.log(array);
 // array.map((value)=>{
 //     console.log(value);
-    
+
 // })
 
 // object
@@ -737,10 +737,10 @@ let array = ["a",true,"c","y"];
 // console.log(creatediv)
 // console.log(btn)
 // btn.addEventListener("click",function () {
-    // alert("button is clicked");
-    // console.log("")
-    // document.write("");
-    // btn.style.color = "red";
+// alert("button is clicked");
+// console.log("")
+// document.write("");
+// btn.style.color = "red";
 
 // })
 // btn.addEventListener("click",function(e){
@@ -751,7 +751,7 @@ let array = ["a",true,"c","y"];
 //     if(name === "" || email === ""){
 //         alert("please fill all the fields")
 //     }
-    
+
 // });
 
 
@@ -763,7 +763,7 @@ let array = ["a",true,"c","y"];
 //     res.map((d)=>{
 //         console.log(d);
 //     })
-    
+
 // }
 // getdatafromapi();
 // console.log("hello world!")
@@ -776,21 +776,61 @@ let array = ["a",true,"c","y"];
 
 // simple api 
 
-async function getdatafromapi(){
+// async function getdatafromapi(){
 
-    try {
-    let data = await fetch("https://jsonplaceholder.typicode.com/users");
-   let res = await data.json();
-   console.log(res);
-   res.map((d)=>{
-    console.log(d.id,d.name,d.email);
-   })
+//     try {
+//     let data = await fetch("https://jsonplaceholder.typicode.com/users");
+//    let res = await data.json();
+//    console.log(res);
+//    res.map((d)=>{
+//     console.log(d.id,d.name,d.email);
+//    })
 
-    } catch (error) {
-        console.log("custom error message",error);
-        
-    }
-   
-   
+//     } catch (error) {
+//         console.log("custom error message",error);
+
+//     }
+
+
+// }
+// getdatafromapi();
+
+// local storage and session storage
+
+// local storage
+// 1st step developer tool --> application tab --> local storage
+// how to add data in local storage
+
+// let adddata = localStorage.setItem("key","value")
+// localStorage.setItem("name","shahzad")
+// get data from local storage
+// let getdata = localStorage.getItem("name");
+// console.log(getdata);
+// document.writeln(getdata)
+// localStorage.removeItem("name")
+
+
+let btn = document.getElementById("Signup");
+let signupdiv = document.getElementById("signupdiv");
+let getname = localStorage.getItem("name");
+let success = document.getElementById("success");
+btn.addEventListener("click", function (e) {
+    e.preventDefault();
+    let name = document.getElementById("name").value;
+    localStorage.setItem("name", name)
+    window.location.reload();
+    // window.location.href = "index.html"
+
+});
+
+success.innerText = getname ? `Hello, ${getname} you are successfully signed up!` : "Please Sign up!"
+
+signupdiv.style.display = getname ? "none" : "block";
+function logout() {
+    localStorage.removeItem("name");
+    window.location.reload();
 }
-getdatafromapi();
+
+
+
+// document.writeln(getname);
