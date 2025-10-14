@@ -810,27 +810,70 @@ let array = ["a", true, "c", "y"];
 // localStorage.removeItem("name")
 
 
-let btn = document.getElementById("Signup");
-let signupdiv = document.getElementById("signupdiv");
-let getname = localStorage.getItem("name");
-let success = document.getElementById("success");
-btn.addEventListener("click", function (e) {
-    e.preventDefault();
-    let name = document.getElementById("name").value;
-    localStorage.setItem("name", name)
-    window.location.reload();
-    // window.location.href = "index.html"
+// let btn = document.getElementById("Signup");
+// let signupdiv = document.getElementById("signupdiv");
+// let getname = localStorage.getItem("name");
+// let success = document.getElementById("success");
+// btn.addEventListener("click", function (e) {
+//     e.preventDefault();
+//     let name = document.getElementById("name").value;
+//     localStorage.setItem("name", name)
+//     window.location.reload();
+//     // window.location.href = "index.html"
 
-});
+// });
 
-success.innerText = getname ? `Hello, ${getname} you are successfully signed up!` : "Please Sign up!"
+// console.log(getname);
+// success.innerText = getname ? `Hello, ${getname} you are successfully signed up!` : "Please Sign up!"
 
-signupdiv.style.display = getname ? "none" : "block";
-function logout() {
-    localStorage.removeItem("name");
-    window.location.reload();
-}
+// signupdiv.style.display = getname ? "none" : "block";
+// function logout() {
+//     localStorage.removeItem("name");
+//     window.location.reload();
+// }
 
 
 
 // document.writeln(getname);
+
+// js concept using call stack , web api, callback queue
+// console.log("1")
+// setTimeout(() => {
+//     console.log("2")
+// }, 2000);
+// console.log("3")
+
+
+// revision localstorage
+// setItem , getItem , removeItem
+
+// localStorage.setItem("name","ali")
+// console.log(localStorage.getItem("name"))
+// localStorage.removeItem("name")
+
+// event loop
+
+// call stack -> global exectuion context
+// web api 
+// queue -> microtask queue , task queue
+
+console.log("A");
+
+setTimeout(() => {
+    console.log("B");
+}, 1000);
+Promise.resolve().then(()=>{
+    console.log("G");
+})
+setTimeout(() => {
+    console.log("C");
+}, 2000);
+
+setTimeout(() => {
+    console.log("E");
+}, 198);
+
+
+console.log("F"); 
+
+
