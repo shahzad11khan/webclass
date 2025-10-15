@@ -857,23 +857,30 @@ let array = ["a", true, "c", "y"];
 // web api 
 // queue -> microtask queue , task queue
 
-console.log("A");
+// console.log("A");
 
-setTimeout(() => {
-    console.log("B");
-}, 1000);
-Promise.resolve().then(()=>{
-    console.log("G");
-})
-setTimeout(() => {
-    console.log("C");
-}, 2000);
+// setTimeout(() => {
+//     console.log("B");
+// }, 1000);
+// Promise.resolve().then(()=>{
+//     console.log("G");
+// })
+// setTimeout(() => {
+//     console.log("C");
+// }, 2000);
 
-setTimeout(() => {
-    console.log("E");
-}, 198);
+// setTimeout(() => {
+//     console.log("E");
+// }, 198);
 
 
-console.log("F"); 
+// console.log("F"); 
+
+function MyDisplayer() {
+console.log("export from script file")
+}
+export  default MyDisplayer;
+
+export const add = (a,b)=>a+b
 
 
